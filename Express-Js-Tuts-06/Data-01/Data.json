@@ -1,0 +1,138 @@
+{
+    "Cohorts": [
+        {
+            "title": "cohort one",
+            "numb": 1,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+           
+        },
+
+        {
+            "title": "cohort two",
+            "numb": 2,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+           
+           
+        },
+        {
+            "title": "cohort three",
+            "numb": 2,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Four",
+            "numb": 3,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Five",
+            "numb": 4,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Six",
+            "numb": 5,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Seven",
+            "numb": 6,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Eight",
+            "numb": 7,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Nine",
+            "numb": 8,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        },
+        {
+            "title": "cohort Ten",
+            "numb": 9,
+            "duration" : "6 months",
+            "location" : "Pegamut",
+            "Activities" : {
+                "Indoor" : "Whot",
+                "Outdoor" : "Football",
+                "Fun" : "Happy hour"
+            },
+            "Classes" : "Physical, Online"
+       
+        }
+    ]
+     
+    
+}

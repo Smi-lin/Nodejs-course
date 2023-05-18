@@ -1,0 +1,2 @@
+2023-05-17		15:53:25	301e3bf1-f7f7-46ef-a621-a7296e76beab	 GET	/New-page	undefined 
+2023-05-17		15:53:25	6513fcd8-fffd-4dc2-ac41-a553afeb1154	 GET	/css/style.css	undefined 
