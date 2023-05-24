@@ -1,0 +1,15 @@
+2023-26-18		11:26:57	 306b2436-2272-4d55-bbb0-f8bb390cab92	 Error, Not allowed by CORS 
+2023-26-18		11:26:57	 f53b4ec4-7d8b-497b-a924-b6aa3252d1c8	 Error, Not allowed by CORS 
+2023-27-18		11:27:37	 b1fe20bf-b13d-46e5-9462-b525de72f4e6	 Error, Not allowed by CORS 
+2023-27-18		11:27:37	 041907a8-b84a-46d7-9735-753f1d724f73	 Error, Not allowed by CORS 
+
+2023-44-18		11:44:11	 284c1d34-4036-4674-98a3-1a25ddb76598	 Error, Not allowed by CORS 
+2023-44-18		11:44:11	 c12b7e06-09b5-4ae7-957b-6c9a960e5901	 Error, Not allowed by CORS 
+2023-46-18		12:46:37	 31a042ed-a722-4411-9639-0e2ca0985625	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\test.html' 
+2023-47-18		12:47:33	 0602d305-616e-4934-9a96-0375788935f0	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\subdir\test.html' 
+2023-47-18		12:47:37	 77310a0a-7453-4863-afa7-df5def19418d	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\subdir\test.html' 
+2023-47-18		12:47:44	 353e6f0d-fe3d-46b2-8463-34d4f205a572	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\subdir\index.html' 
+2023-47-18		12:47:47	 b50317a8-4584-454d-b3d0-19ddd0bc2c73	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\subdir\index.html' 
+2023-48-18		12:48:06	 7a3d6a01-ade0-403a-8bc1-e277206482f8	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\subdir\index.html' 
+2023-48-18		12:48:10	 f26a8551-151f-42cd-853d-f62fcc79b0f8	 Error, ENOENT: no such file or directory, stat 'C:\Users\DELL\Desktop\Node-Js-Course\router\views\subdir\index.html' 
+2023-57-18		15:57:29	 f14274b6-2a6a-4518-933d-f80c00a0e34d	 SyntaxError, Unexpected non-whitespace character after JSON at position 81 
