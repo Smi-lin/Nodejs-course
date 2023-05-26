@@ -9,7 +9,7 @@ const corsOptions = require("./config/corsOptions");
 const verifyJWT = require("./middleware/verifyJWT");
 const cookieParser = require('cookie-parser')
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3500;
 
 app.use(logger);
 
@@ -21,14 +21,13 @@ app.use(cookieParser())
 
 // serve static files
 app.use("/", express.static(path.join(__dirname, "./public")));
-// app.use('/subdir',express.static(path.join(__dirname, './public')))
+
 
 // routes
 app.use("/", require("./routes/root"));
-// app.use('/subdir', require('./routes/subdir'))
+
 
 // register api routes
-
 app.use("/register", require("./routes/register"));
 
 // auth api routes
@@ -40,19 +39,18 @@ app.use("/refresh", require("./routes/refresh"));
 
 // logout token api routes
 app.use("/logout", require ("./routes/logout"))
+// students api  routes
+app.use("/students", require("./routes/api/students"));
 
 // version api routes
 app.use(verifyJWT)
 
-// students api  routes
-app.use("/students", require("./routes/api/students"));
 
 app.use(cors(corsOptions));
 
 
 // how to get request
 app.get("^/$|index(.html)?", (req, res) => {
-  //res.sendFile('./views/index.html', {root: __dirname})
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
@@ -63,7 +61,6 @@ app.get("^/$|new-page(.html)?", (req, res) => {
 // to redirect
 
 app.get("/old-page(.html)?", (req, res) => {
-  // res.redirect(path.join(__dirname, 'views', 'new-page.html')) // 302 by default
   res.redirect(301, "/new-page.html");
 });
 
@@ -99,19 +96,4 @@ app.get(
 app.use(errorHandler);
 app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
 
-// // Creating Server
-// const http = require('http')
-// const host = 'localhost'
-// const port = '9111'
 
-// const requestListner = function(req, res) {
-//     res.writeHead(200)
-//     res.end('My first server!')
-// }
-
-// // Creating A Server
-
-// const server = http.createServer(requestListner);
-// server.listen(port, host, () => {
-//     console.log(`Server Listening on port http://${port} : ${host}`)
-// })

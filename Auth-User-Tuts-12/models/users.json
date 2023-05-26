@@ -1,0 +1,37 @@
+[
+  {
+    "username": "fola",
+    "roles": { "user": 2001, "Editor": 1984, "Admin": 5150 },
+    "password": "$2b$10$yqdQTtcrJkHfMarpZIofheDOExRWGQmfIqqDpytQyA4o9GiRvFSZK",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZvbGEiLCJpYXQiOjE2ODUwMjMzMTgsImV4cCI6MTY4NTEwOTcxOH0.i0qpcBnKHiiZVSkRBbSpLPodcOntL7UYpbXIDtDEuLk"
+  },
+  {
+    "username": "ola",
+    "roles": { "user": 2001, "Editor": 1984, "Admin": 5150 },
+    "password": "$2b$10$OnNyCTliYOt3HJt5cZnozeiLiYFufhG8QKBfevYX41Ft4GFjgXY4S",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im9sYSIsImlhdCI6MTY4NTAyMzQyMCwiZXhwIjoxNjg1MTA5ODIwfQ.ga-VP7icOdGmYYithVFGBbMkjtcDyX-AWVPjjmuiuoA"
+  },
+  {
+    "username": "lola",
+    "roles": { "user": 2001, "Editor": 1984, "Admin": 5150 },
+    "password": "$2b$10$OnP7yIrjOHtTPhQflmdOSOD.3Es38uqYNo68aw4r8R.JZOut0SfI2",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxvbGEiLCJpYXQiOjE2ODUwMjU2NTYsImV4cCI6MTY4NTExMjA1Nn0.vI7ijccnxD2jKVZNNKL4eeV7iMlVD9Kpvm279fj67aI"
+  },
+  {
+    "username": "sola",
+    "password": "$2b$10$WH3BTiCsr9MaAgMSa/pQo.9MwaxBHN1Omr/Z5NlDxSv7XRkTzSt/6",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNvbGEiLCJpYXQiOjE2ODUwODczMTUsImV4cCI6MTY4NTE3MzcxNX0.ehcW4UpHuuJ5T2K05UxH-ISsBdq7T8QVW17w2k0Jd24"
+  },
+  {
+    "username": "keji",
+    "roles": { "User": 2001 },
+    "password": "$2b$10$SoXdsbME5SjQyFDPd9UFtO5NrruECwBNNvGt6mpEOTB6y2C/X2IyO",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtlamkiLCJpYXQiOjE2ODUwOTcyODUsImV4cCI6MTY4NTE4MzY4NX0.TGy4U2q-x6DOClAU2CXr0914bcHsn1Z8-TMWNvacM7M"
+  },
+  {
+    "username": "bimpe",
+    "roles": { "user": 2001 },
+    "password": "$2b$10$YrPHe7zvCNLNjff5EjZrjOXAIsw48sX1w6fpetcGaEpU4Xu/5iIiW",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJpbXBlIiwiaWF0IjoxNjg1MDk3Njc2LCJleHAiOjE2ODUxODQwNzZ9.NjdBMU2F58hhw1ytAjQ-PQRyCogrZJYFlrPq0ocdSMY"
+  }
+]

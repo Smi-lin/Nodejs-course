@@ -13,27 +13,30 @@ const handleNewUser = async (req, res) => {
   const { user, pwd } = req.body;
   if (!user || !pwd)
     return res.status(400).json({ message: "Username and password required" });
-
   const duplicate = userDB.users.find((person) => person.username === user);
-  if (duplicate) return res.status(409).json({message : `username ${user} exists`});
+
+  if (duplicate) return res.status(409); //.json({message: `User ${}`}); //Conflict error
 
   try {
     const hashpwd = await bcrypt.hash(pwd, 10);
-    const newUser = { username: user, password: hashpwd };
-    userDB.setUser([...userDB.users, newUser]);
-    // const users = [...userDB.users, newUser];
+    const newUser = {
+      "username": user,
+      "roles": {
+        "User": 2001,
+      },
+      "password": hashpwd,
+    };
 
+    userDB.setUser([...userDB.users, newUser]);
     fsPromise.writeFile(
       path.join(__dirname, "..", "models", "users.json"),
       JSON.stringify(userDB.users)
     );
 
     console.log(newUser);
-    res
-      .status(201)
-      .json({
-        message: `User ${newUser.username} has registered successfully`,
-      });
+    res.status(201).json({
+      message: `User ${newUser.username} has registered successfully`,
+    });
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
