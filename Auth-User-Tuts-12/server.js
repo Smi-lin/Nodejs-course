@@ -17,7 +17,8 @@ app.use(express.urlencoded({ extended: false }));
 
 // buit-in middleware for json data
 app.use(express.json());
-app.use(cookieParser())
+app.use(cookieParser());
+app.use(cors(corsOptions));
 
 // serve static files
 app.use("/", express.static(path.join(__dirname, "./public")));
@@ -25,44 +26,13 @@ app.use("/", express.static(path.join(__dirname, "./public")));
 
 // routes
 app.use("/", require("./routes/root"));
-
-
-// register api routes
 app.use("/register", require("./routes/register"));
-
-// auth api routes
 app.use("/auth", require("./routes/auth"));
-
-// refresh token api routes
-
 app.use("/refresh", require("./routes/refresh"));
-
-// logout token api routes
 app.use("/logout", require ("./routes/logout"))
-// students api  routes
 app.use("/students", require("./routes/api/students"));
-
-// version api routes
 app.use(verifyJWT)
 
-
-app.use(cors(corsOptions));
-
-
-// how to get request
-app.get("^/$|index(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
-
-app.get("^/$|new-page(.html)?", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "new-page.html"));
-});
-
-// to redirect
-
-app.get("/old-page(.html)?", (req, res) => {
-  res.redirect(301, "/new-page.html");
-});
 
 // catch all route to get error 404 page
 app.all("*", (req, res) => {
@@ -76,22 +46,6 @@ app.all("*", (req, res) => {
   }
 });
 
-// Method 2
-
-app.get(
-  "/",
-  (req, res, next) => {
-    console.log("attempted a request");
-  },
-  (err, res, next) => {
-    console.log("attempted a request 2");
-    next();
-  },
-  (req, res) => {
-    console.log("Final request");
-    res.send("Hello World");
-  }
-);
 
 app.use(errorHandler);
 app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
